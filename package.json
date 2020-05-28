@@ -1,0 +1,36 @@
+{
+  "name": "@spyke/eslint-config",
+  "version": "1.0.0",
+  "description": "More strict version of recommended ESLint config with Imports plug-in.",
+  "author": "Anton Alexandrenok",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "lint": "eslint --format=\"unix\" \"**/*.?(c|m)js\""
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-plugin-import": "2.20.2"
+  },
+  "files": [
+    "*.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-spyke/spyke-eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
+}

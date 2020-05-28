@@ -1,0 +1,14 @@
+{
+	"env": {
+		"es2015": true,
+		"node": true
+	},
+	"extends": [
+		"./base.js"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2016,
+		"sourceType": "script"
+	},
+	"root": true
+}
